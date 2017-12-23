@@ -9,5 +9,5 @@
     <rule ref="WordPress-Docs"/>
     <rule ref="WordPress.WP.I18n"/>
 
-    <file>markdown-block.php</file>
+    <file>index.php</file>
 </ruleset>
