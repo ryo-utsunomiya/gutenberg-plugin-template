@@ -13,13 +13,12 @@
 /**
  * Register Block JavaScript file.
  */
-function my_enqueue_block_editor_assets()
-{
-    wp_enqueue_script(
-        'markdown-block',
-        plugins_url('build/index.js', __FILE__),
-        array('wp-blocks', 'wp-element')
-    );
+function my_enqueue_block_editor_assets() {
+	wp_enqueue_script(
+		'markdown-block',
+		plugins_url( 'build/index.js', __FILE__ ),
+		array( 'wp-blocks', 'wp-element' )
+	);
 }
 
-add_action('enqueue_block_editor_assets', 'my_enqueue_block_editor_assets');
+add_action( 'enqueue_block_editor_assets', 'my_enqueue_block_editor_assets' );
