@@ -26,6 +26,13 @@ A template for WordPress plugin that extends Gutenberg editor.
 - `npm run build` for full build
 - `npm run watch` for iteration of partial build (a.k.a "watch" mode)
 
+## Lint
+
+- `npm run lint` for JavaScript
+- `npm run lint -- --fix` for fixing JavaScript errors
+- `./vendor/bin/phpcs` for PHP
+- `./vendor/bin/phpcbf` for fixing PHP errors
+
 ## Todo
 
 - [ ] Create generator for Gutenberg plugin template(like [react-create-app](https://github.com/facebookincubator/create-react-app))
