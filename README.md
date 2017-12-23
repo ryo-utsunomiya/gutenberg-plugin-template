@@ -21,6 +21,11 @@ A template for WordPress plugin that extends Gutenberg editor.
 3. `composer install`
 4. Start your awesome project👍
 
+## Build
+
+- `npm run build` for full build
+- `npm run watch` for iteration of partial build (a.k.a "watch" mode)
+
 ## Todo
 
 - [ ] Create generator for Gutenberg plugin template(like [react-create-app](https://github.com/facebookincubator/create-react-app))
