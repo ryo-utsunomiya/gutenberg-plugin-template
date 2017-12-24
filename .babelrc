@@ -27,7 +27,6 @@
 	"env": {
 		"default": {
 			"plugins": [
-				"lodash",
 				"transform-runtime"
 			]
 		},
