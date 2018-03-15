@@ -24,7 +24,7 @@ A template for WordPress plugin that extends Gutenberg editor.
 ## Build
 
 - `npm run build` for full build
-- `npm run watch` for iteration of partial build (a.k.a "watch" mode)
+- `npm run dev` for iteration of partial build (a.k.a "watch" mode)
 
 ## Lint
 
